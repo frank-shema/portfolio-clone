@@ -1,4 +1,4 @@
-import Project_card from "../project_card/Project_card";
+import Projectcard from "../project_card/Project_card";
 import first from "../../assets/Rectangle 22.jpg";
 import second from "../../assets/Rectangle 22.png";
 import third from "../../assets/Rectangle 22 (1).png";
@@ -40,7 +40,7 @@ const Projects = () => {
           </div>
           {/* right */}
           <div className=" text-white font-medium">
-            <a href="">
+            <a href="#">
               <span>View all ~~&gt;</span>
             </a>
           </div>
@@ -51,7 +51,7 @@ const Projects = () => {
           {projects.map(({ img, langs, title, disc }) => {
             return (
               <>
-                <Project_card
+                <Projectcard
                   img={img}
                   langs={langs}
                   title={title}
