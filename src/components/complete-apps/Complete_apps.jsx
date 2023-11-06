@@ -1,10 +1,10 @@
 import React from 'react'
 // imgs
-import first from "./imgs/Rectangle 22.jpg";
-import second from "./imgs/Rectangle 22.png";
-import third from "./imgs/Rectangle 22 (1).png";
-import forth from "./imgs/Rectangle 22 (11).png";
-import fifth from "./imgs/Rectangle 22.png";
+import first from "../../assets/Rectangle 22.jpg";
+import second from "../../assets/Rectangle 22.png";
+import third from "../../assets/Rectangle 22 (1).png";
+import forth from "../../assets/Rectangle 22 (11).png";
+import fifth from "../../assets/Rectangle 22.png";
 import Projectcard from '../project_card/Project_card';
 
 const Complete_apps = () => {

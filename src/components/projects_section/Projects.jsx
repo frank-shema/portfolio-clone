@@ -1,7 +1,7 @@
 import Project_card from "../project_card/Project_card";
-import first from "./imgs/Rectangle 22.jpg";
-import second from "./imgs/Rectangle 22.png";
-import third from "./imgs/Rectangle 22 (1).png";
+import first from "../../assets/Rectangle 22.jpg";
+import second from "../../assets/Rectangle 22.png";
+import third from "../../assets/Rectangle 22 (1).png";
 
 const Projects = () => {
   // date

@@ -35,7 +35,7 @@ const About = () => {
                 </div>
                 {/* right */}
                 <div className=" mx-auto">
-                    <img className="mx-auto" src={require("./imgs/man.png")} alt="" />
+                    <img className="mx-auto" src={require("../../assets/man.png")} alt="" />
                 </div>
             </div>
         </div>

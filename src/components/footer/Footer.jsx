@@ -12,7 +12,7 @@ const Footer = () => {
             <div className=" flex items-center gap-8 mb-3 ">
               {/* logo */}
               <div className=" flex gap-2 items-center text-2xl text-white font-bold">
-                <img src={require("./imgs/Logo.png")} alt="" />
+                <img src={require("../../assets/Logo.png")} alt="" />
                 <span>Elias</span>
               </div>
               {/* email */}
@@ -30,13 +30,13 @@ const Footer = () => {
             {/* media */}
             <div className="flex items-center gap-2">
               <a href="#">
-                <img src={require("./imgs/Discord.png")} alt="" />
+                <img src={require("../../assets/Discord.png")} alt="" />
               </a>
               <a href="#">
-                <img src={require("./imgs/Figma.png")} alt="" />
+                <img src={require("../../assets/Figma.png")} alt="" />
               </a>
               <a href="#">
-                <img src={require("./imgs/Github.png")} alt="" />
+                <img src={require("../../assets/Github.png")} alt="" />
               </a>
             </div>
           </div>

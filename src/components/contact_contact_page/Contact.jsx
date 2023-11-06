@@ -33,14 +33,14 @@ const Contact = () => {
                             {/* contacts */}
                             <div className=" flex gap-1 items-center">
                                 {/* img */}
-                                <img src={require("./imgs/Discord.png")} alt="" />
+                                <img src={require("../../assets/Discord.png")} alt="" />
                                 {/* text */}
                                 <span>Elias#1234</span>
                             </div>
                             {/* contacts */}
                             <div className=" flex gap-1 items-center">
                                 {/* img */}
-                                <img src={require("./imgs/Email.png")} alt="" />
+                                <img src={require("../../assets/Email.png")} alt="" />
                                 {/* text */}
                                 <span>elias@elias.me</span>
                             </div>
@@ -57,13 +57,13 @@ const Contact = () => {
                 <div className=" flex gap-6">
                     <a href="#">
                         <div className=" text-[#ABB2BF] flex items-center gap-1">
-                            <img src={require('./imgs/Twitter.png')} alt="" />
+                            <img src={require('../../assets/Twitter.png')} alt="" />
                             <span>@elias</span>
                         </div>
                     </a>
                     <a href="#">
                         <div className=" text-[#ABB2BF] flex items-center gap-1">
-                            <img src={require('./imgs/Twitter.png')} alt="" />
+                            <img src={require('../../assets/Twitter.png')} alt="" />
                             <span>@elias</span>
                         </div>
                     </a>
