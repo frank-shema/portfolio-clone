@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
-import Home_page from "./pages/Home_page";
-import Project_page from "./pages/Project_page";
-import About_page from "./pages/About_page";
-import Contact_page from "./pages/Contact_page";
+import Homepage from "./pages/Home_page";
+import Projectpage from "./pages/Project_page";
+import Aboutpage from "./pages/About_page";
+import Contactpage from "./pages/Contact_page";
 // aos animation library
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -20,10 +20,10 @@ function App() {
       <Navbar />
       <Routes>
         {/* HOME PAGE */}
-        <Route path="/" element={<Home_page />} />
-        <Route path="/projects" element={<Project_page />} />
-        <Route path="/about" element={<About_page />} />
-        <Route path="/contact" element={<Contact_page />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/projects" element={<Projectpage />} />
+        <Route path="/about" element={<Aboutpage />} />
+        <Route path="/contact" element={<Contactpage />} />
       </Routes>
       <Footer />
     </div>
