@@ -55,13 +55,13 @@ const Contact = () => {
                 <div className=" text-[32px] font-medium text-white"><span className='text-[#C778DD]'>#</span>all-media</div>
                 {/* media */}
                 <div className=" flex gap-6">
-                    <a href="#">
+                    <a href="/#">
                         <div className=" text-[#ABB2BF] flex items-center gap-1">
                             <img src={require('../../assets/Twitter.png')} alt="" />
                             <span>@elias</span>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="/#">
                         <div className=" text-[#ABB2BF] flex items-center gap-1">
                             <img src={require('../../assets/Twitter.png')} alt="" />
                             <span>@elias</span>
