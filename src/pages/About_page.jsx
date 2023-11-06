@@ -3,7 +3,6 @@ import Funfacts from "../components/fun_facts/fun_facts";
 import Skills from "../components/skills_about_page/skills";
 
 const About_page = () => {
-  // in this video i will continue to create About page
   return <>
     <About />
     <Skills/>

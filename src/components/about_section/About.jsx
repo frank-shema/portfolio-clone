@@ -34,7 +34,8 @@ const AboutSec = () => {
             <div className="mt-7">
               <a
                 href="#"
-                className=" duration-150 hover:bg-[#C778DD33] border border-[#C778DD] px-4 py-2 text-white ">
+                className=" duration-150 hover:bg-[#C778DD33] border border-[#C778DD] px-4 py-2 text-white "
+              >
                 <button>Read more -{">"}</button>
               </a>
             </div>

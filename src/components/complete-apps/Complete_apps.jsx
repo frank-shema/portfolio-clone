@@ -5,7 +5,7 @@ import second from "./imgs/Rectangle 22.png";
 import third from "./imgs/Rectangle 22 (1).png";
 import forth from "./imgs/Rectangle 22 (11).png";
 import fifth from "./imgs/Rectangle 22.png";
-import Project_card from '../project_card/Project_card';
+import Projectcard from '../project_card/Project_card';
 
 const Complete_apps = () => {
     const projects = [
@@ -74,7 +74,7 @@ const Complete_apps = () => {
                         {projects.map(({ img, langs, title, disc }) => {
                             return (
                                 <>
-                                    <Project_card
+                                    <Projectcard
                                         img={img}
                                         langs={langs}
                                         title={title}
