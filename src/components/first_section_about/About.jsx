@@ -5,7 +5,7 @@ const About = () => {
       <div className="px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap">
         <div data-aos="fade-right" className=" w-10/12 sm:w-8/12 mx-auto">
           <h1 className="font-semibold text-[32px] text-white mb-3">
-            Elias is a <span className="text-[#C778DD]">web designer</span> and{" "}
+            Name is a <span className="text-[#C778DD]">web designer</span> and{" "}
             <span className="text-[#C778DD]">front-end developer</span>
           </h1>
           <p className="text-[#ABB2BF] my-6">

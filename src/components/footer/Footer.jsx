@@ -13,10 +13,10 @@ const Footer = () => {
               {/* logo */}
               <div className=" flex gap-2 items-center text-2xl text-white font-bold">
                 <img src={require("../../assets/Logo.png")} alt="" />
-                <span>Elias</span>
+                <span>Name</span>
               </div>
               {/* email */}
-              <span className="text-[#ABB2BF]">elias@elias.ml</span>
+              <span className="text-[#ABB2BF]">Name@Name.ml</span>
             </div>
             {/* disc */}
             <div className="text-[#ffffff]">
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         {/* bottom */}
         <div className="text-center text-[#ABB2BF] pb-8 mt-12">
-          © Copyright 2022. Made by Elias
+          © Copyright 2022. Made by Name
         </div>
       </div>
     </>

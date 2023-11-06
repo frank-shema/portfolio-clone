@@ -19,7 +19,7 @@ const About = () => {
                 <div className="md:w-[48%] w-full">
                     {/* disc */}
                     <p className="text-[#ABB2BF] ">
-                        Hello, i’m Elias!
+                        Hello, i’m Name!
                         <br />
                         <br />
                         I’m a self-taught front-end developer based in Kyiv, Ukraine. I

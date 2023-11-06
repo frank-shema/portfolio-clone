@@ -18,7 +18,7 @@ const Small_projects = () => {
         {
             languages: ["VUE", "Figma", "HTML"],
             title: "Chess pro",
-            body: 'Figma landing page about service for viewing chess tournaments'
+            body: 'Figma landing page about service for viewing chess tourNaments'
         },
         {
             languages: ["React", "CSS", "HTML"],
